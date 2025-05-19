@@ -1,0 +1,16 @@
+{
+  "name": "analizadorfinal",
+  "version": "1.0.0",
+  "description": "Analizador léxico, sintáctico e intérprete con ANTLR4 y Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["antlr4", "analizador", "ebnf", "ssl"],
+  "author": "TuNombre",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}
