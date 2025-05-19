@@ -1,0 +1,6 @@
+prueba "Logout" {
+  dado el.usuario "admin"
+  cuando el.boton "logout" es clickeado
+  entonces la.pagina "/login" no es contener "token"
+  dado la.sesion "cerrada"
+}
